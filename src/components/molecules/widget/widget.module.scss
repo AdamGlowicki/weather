@@ -1,0 +1,71 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: .5rem;
+  margin: .25rem;
+  position: relative;
+
+  .widget__title {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+
+    .widget__city {
+      width: 100%;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .widget__icon {
+      width: 100%;
+      font-size: 4rem;
+      text-align: center;
+    }
+  }
+
+  .widget__content {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+
+    .widget__temp {
+      width: 100%;
+      font-size: 70px;
+      font-weight: 700;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+
+      .widget__deg {
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+        flex-shrink: 2;
+      }
+    }
+
+    .widget__detail {
+      width: 100%;
+    }
+  }
+
+  button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: .75rem;
+    color: wheat;
+    padding: .25rem;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+  }
+}

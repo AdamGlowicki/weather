@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+  .app__search {
+    padding: 1rem 0;
+  }
+
+  .app__widgets {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

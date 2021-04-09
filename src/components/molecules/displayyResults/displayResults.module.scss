@@ -1,0 +1,11 @@
+.results {
+  padding: .5rem;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transform: translateY(70px);
+  z-index: 9999;
+  background-color: #e3e0e0;
+  border-radius: .5rem;
+}
